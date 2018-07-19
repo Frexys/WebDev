@@ -1,0 +1,53 @@
+Objectives:
+
+a) 5 primitive data types
+b) Numbers and numeric operators
+c) Strings and common string methods
+
+
+Data types:
+
+Numbers, e.g. 4, 9.3, -10. There are just numbers, no floats, doubles, ints etc.
+
+Strings, e.g. "Hello World", "43"
+
+Booleans, i.e. true, false
+
+null
+
+undefined
+
+
+
+NUMBERS:
+
+We can do numbers: 4, 9.3, -10 etc..
+
+Math: 4 + 10, 1/5
+
+Modulo: 10%3 = 1, 24%2 = 0, 15%11 = 4 etc.
+
+
+
+
+STRINGS:
+
+Numbers or characters inside of quotes (single or double, but must be conistent).
+
+Concatenation: "charlie" + "brown" = "charliebrown"
+
+Escape characters with \, e.g. "She said \"goodbye\" ".
+
+All strings have .length property
+
+Access individual letters using [] and an index: "hello"[4] = "o"
+
+
+
+
+Exercises:
+100%3: 1
+
+("blah"+"blah")[6] = 'a'
+
+"hello".length % "hi\\".length = 5%3 = 2

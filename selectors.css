@@ -1,0 +1,39 @@
+/*Elements*/
+li	{
+
+}
+
+/*CLass*/
+.hello {
+
+}
+
+/*id*/
+#name {
+
+}
+
+/*Star - selects everything on the page*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selectors - selects descendants; e.g. only anchors inside li tags*/
+li a {
+	color: red;
+}
+
+/*Adjacent Selectors - selects all elements of type b after type a, on the same level as type a*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute Selectors - select all elements with specific attributes*/
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+	background: purple;
+}
